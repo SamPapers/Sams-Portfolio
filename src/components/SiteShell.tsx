@@ -146,7 +146,7 @@ export default function SiteShell({
         </div>
 
         <div className="relative mx-auto flex h-full min-h-0 w-full max-w-[min(560px,calc(100vw-12px))] flex-col sm:max-w-[min(560px,calc(100vw-24px))] md:max-w-[580px] lg:max-w-[600px]">
-          <div className="frame-primary frame-site relative min-h-0">
+          <div className="frame-primary relative h-full min-h-0">
             <AmbientBackground
               word={marqueeWord}
               reducedMotion={reducedMotion}

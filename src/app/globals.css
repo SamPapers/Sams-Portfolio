@@ -29,10 +29,6 @@ body {
       inset 0 0 0 1px rgba(255, 255, 255, 0.06);
   }
 
-  .frame-site {
-    @apply grid max-h-dvh grid-rows-[auto_1fr] md:grid-cols-[4rem_1fr] md:grid-rows-1;
-  }
-
   /** Mobile horizontal rail: edge fade so overflow scroll feels intentional */
   .nav-scroll-fade {
     mask-image: linear-gradient(

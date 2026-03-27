@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "athleta-wellness-your-way",
+    "title": "Athleta — Wellness Your Way",
+    "year": 2023,
+    "techs": ["Brand", "Campaign", "Creative direction", "Wellness"],
+    "tags": ["Women's sport", "Brand storytelling"],
+    "client": "Athleta",
+    "partners": [],
+    "summary": "Creative direction for a wellness-led brand story: simple, motivating, and built for real life—not performance theater.",
+    "engagement": "Led strategic and creative framing for how the brand shows up around wellness: language, visual rhythm, and campaign ideas that feel human and shareable.",
+    "services": ["creative-direction", "brand", "campaign-concepting"],
+    "links": [
+      {
+        "label": "Open deck (PDF)",
+        "href": "/portfolio/athleta-wellness-your-way.pdf"
+      }
+    ],
+    "pdf": "/portfolio/athleta-wellness-your-way.pdf",
+    "image": "",
+    "featured": true
+  },
+  {
+    "slug": "grey-goose-rebrand",
+    "title": "Grey Goose — Rebrand exploration",
+    "year": 2024,
+    "techs": ["Rebrand", "Premium cues", "Narrative", "Design partnership"],
+    "tags": ["Spirits", "Luxury"],
+    "client": "Grey Goose",
+    "partners": [],
+    "summary": "Exploring how a modern premium spirit brand could evolve its story and visual language without losing what made it iconic.",
+    "engagement": "Creative direction across positioning, narrative architecture, and design language—balancing heritage, craft, and contemporary culture.",
+    "services": ["creative", "rebrand", "narrative", "visual-direction"],
+    "links": [
+      {
+        "label": "Open deck (PDF)",
+        "href": "/portfolio/grey-goose-rebrand.pdf"
+      }
+    ],
+    "pdf": "/portfolio/grey-goose-rebrand.pdf",
+    "image": "",
+    "featured": true
+  },
+  {
+    "slug": "bad-bunny-apple-music-snap-2025",
+    "title": "Bad Bunny × Apple Music × Snap",
+    "year": 2025,
+    "techs": ["Partnership", "Culture", "Music", "Social"],
+    "tags": ["Entertainment", "Platform"],
+    "client": "Apple Music × Snap (Bad Bunny)",
+    "partners": [],
+    "summary": "A cultural partnership moment connecting artist, streaming, and social—built to feel native to fans, not like another promo layer.",
+    "engagement": "Creative direction for framing, messaging, and experiential beats that keep the idea legible while still feeling loud and fun.",
+    "services": ["creative-direction", "partnerships", "launch-creative"],
+    "links": [
+      {
+        "label": "Open deck (PDF)",
+        "href": "/portfolio/bad-bunny-apple-music-snap-2025.pdf"
+      }
+    ],
+    "pdf": "/portfolio/bad-bunny-apple-music-snap-2025.pdf",
+    "image": "",
+    "featured": true
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "icon": "golf", "label": "Golfing" },
+    { "icon": "cycling", "label": "Cycling" },
+    { "icon": "photography", "label": "Photography" },
+    { "icon": "writing", "label": "Writing" }
+  ]
+}

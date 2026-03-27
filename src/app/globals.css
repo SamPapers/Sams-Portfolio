@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #ffcc00;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100dvh;
+  color: rgba(255, 255, 255, 0.88);
+  background:
+    radial-gradient(1200px circle at 20% 10%, rgba(255, 204, 0, 0.18), transparent 46%),
+    radial-gradient(1000px circle at 80% 30%, rgba(255, 204, 0, 0.1), transparent 52%),
+    radial-gradient(800px circle at 50% 100%, rgba(255, 180, 0, 0.06), transparent 55%),
+    #0c0a08;
+}
+
+@layer components {
+  .frame-primary {
+    @apply relative h-full w-full max-w-[560px] overflow-hidden rounded-lg border border-base-300 bg-black/25 backdrop-blur-xl md:rounded-2xl;
+    box-shadow:
+      0 24px 80px rgba(0, 0, 0, 0.55),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+  }
+
+  .frame-site {
+    @apply grid max-h-dvh grid-rows-[auto_1fr] md:grid-cols-[4rem_1fr] md:grid-rows-1;
+  }
+
+  /** Mobile horizontal rail: edge fade so overflow scroll feels intentional */
+  .nav-scroll-fade {
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 14px,
+      black calc(100% - 14px),
+      transparent
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 14px,
+      black calc(100% - 14px),
+      transparent
+    );
+  }
+
+  .glossy-25 {
+    @apply bg-white/5 backdrop-blur-md;
+  }
+
+  .btn-main {
+    @apply inline-flex min-h-12 items-center justify-center gap-3 rounded border border-base-300 bg-white/5 px-6 py-4 font-semibold text-neutral-50 transition hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-primary/35 sm:min-h-0;
+  }
+
+  .input-primary {
+    @apply w-full rounded border border-base-300 bg-white/5 px-4 py-3 text-neutral-50 placeholder:text-neutral-50/60 outline-none transition focus:border-primary/60 focus:bg-white/10;
+  }
+
+  .textarea-primary {
+    @apply min-h-[140px] rounded border border-base-300 bg-white/5 px-4 py-3 text-neutral-50 placeholder:text-neutral-50/60 outline-none transition focus:border-primary/60 focus:bg-white/10;
+  }
+
+  .pill {
+    @apply rounded-full border border-base-300 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-wider text-neutral-50/90;
+  }
+
+  .scrollbar-custom {
+    scrollbar-width: none;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

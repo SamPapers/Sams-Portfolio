@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "superTitle": "Creative Director",
+    "titlePrefix": "Hi, I’m",
+    "titleEmphasis": "Sam",
+    "titleSuffix": ", a creative director.",
+    "description": "Curiosity in motion. Constantly testing, asking, breaking, and rebuilding my understanding of the world."
+  },
+  "aboutMe": {
+    "title": "about-me",
+    "paragraphs": [
+      "Nice to meet you! I'm Sam, curious by nature.",
+      "Equal parts thinker and maker. Passionate about simple, right-in-front-of-your-nose ideas, \"why didn’t I think of that\".",
+      "Truthfully, I hate most ads. I’m only interested in making things worth sharing with my wife, who’s the real cynic.",
+      "Obsessed with great design, especially the kind you don’t notice until it’s missing."
+    ]
+  },
+  "whereIWork": {
+    "locationLine": "Based in Los Angeles, CA",
+    "availabilityLine": "Available for selective collaborations with brands, studios, and teams who care about the work."
+  },
+  "collaboration": {
+    "title": "Let’s work together on your next project",
+    "ctaLabel": "Let’s get in touch"
+  },
+  "portrait": {
+    "src": "/portfolio/portrait.png",
+    "alt": "Sam Trotman, portrait"
+  }
+}

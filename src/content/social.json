@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "icon": "linkedin",
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/samueltrotmanjr/"
+    },
+    {
+      "icon": "instagram",
+      "label": "Instagram",
+      "href": "https://www.instagram.com/sampapers/"
+    }
+  ]
+}
